@@ -61,9 +61,13 @@ function Home() {
             Contact Me
           </a>
 
-          <a href="/Mahin_Naaz_Resume.pdf" download className="btn btn-outline">
+          <a
+            href="Mahin_Naaz_Resume.pdf"
+            download
+            className="btn btn-outline"
+          >
             Resume
-          </a>
+           </a>
         </motion.div>
 
 

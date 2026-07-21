@@ -222,6 +222,9 @@ section {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+
+  position: relative;
+  z-index: 10;
 }
 
 .btn {
@@ -232,6 +235,9 @@ section {
   border-radius: 999px;
   font-weight: 600;
   transition: all 0.3s ease;
+
+  position: relative;
+  z-index: 10; 
 }
 
 .btn:hover {
@@ -243,13 +249,14 @@ section {
   background: white;
   color: #2563eb;
   border: 2px solid #2563eb;
+  transition: all 0.3s ease;
 }
 
 .btn-outline:hover {
   background: #2563eb;
   color: white;
   transform: translateY(-4px);
-  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.15);
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.25);
 }
 
 /* ===== HERO BLOBS ===== */
