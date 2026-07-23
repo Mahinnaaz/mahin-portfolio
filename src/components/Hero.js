@@ -62,7 +62,7 @@ function Home() {
           </a>
 
           <a
-            href="Mahin_Naaz_Resume.pdf"
+            href="/Mahin_Naaz_Resume.pdf"
             download
             className="btn btn-outline"
           >
